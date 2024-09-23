@@ -1,0 +1,81 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.notification-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+.img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 60%;
+}
+
+.information-bg-color {
+  background-color: #0b69ff;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+}
+
+.success-bg-color {
+  background-color: #2dca73;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+}
+.warning-bg-color {
+  background-color: #ffb800;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+}
+.error-bg-color {
+  background-color: #ff0b37;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    font-size: 50px;
+  }
+  .description {
+    font-size: 35px;
+  }
+}
